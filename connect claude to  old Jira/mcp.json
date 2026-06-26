@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "jira-confluence": {
+      "type": "stdio",
+      "command": "mcp-atlassian",
+      "env": {
+        "JIRA_URL": "<Your Jira URL>",
+        "JIRA_USERNAME": "${JIRA_USERNAME}",
+        "JIRA_API_TOKEN": "${JIRA_API_TOKEN}",
+        "JIRA_SSL_VERIFY": "true",
+        "CONFLUENCE_URL": "<Your Confluence URL>",
+        "CONFLUENCE_USERNAME": "${CONFLUENCE_USERNAME}",
+        "CONFLUENCE_API_TOKEN": "${CONFLUENCE_API_TOKEN}",
+        "CONFLUENCE_SSL_VERIFY": "true"
+      }
+    }
+  }
+}
